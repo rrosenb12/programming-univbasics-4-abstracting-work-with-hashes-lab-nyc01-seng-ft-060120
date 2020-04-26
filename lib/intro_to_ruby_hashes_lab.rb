@@ -1,6 +1,6 @@
 def my_hash_creator(key, value)
   # return a hash that includes the key and value parameters passed into this method
-  my_hash_creator_hash = {:name=>"Grace Hopper"}
+  my_hash_creator_hash = {:"#{key}"=>"#{value}"}
   return my_hash_creator_hash
 end
 
